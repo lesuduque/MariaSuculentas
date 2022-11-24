@@ -4,7 +4,7 @@ const Header = () => {
             <nav class="navbar bg-success.bg-gradient">
             <section class="container-fluid">
             
-            <img src="https://www.thecolvinco.com/es/c/wp-content/uploads/2020/06/2b-768x768.jpg" alt="Logo" width="70" height="70" class="d-inline-block align-text-top rounded-circle" />
+            <img src="https://www.thecolvinco.com/es/c/wp-content/uploads/2020/06/2b-768x768.jpg" alt="Logo" width="70" height="70" class="d-inline-block align-text-top rounded-circle " />
             <h1 class="text-light position-absolute top-50 start-50 translate-middle"> Maria Suculentas </h1>
             
           
