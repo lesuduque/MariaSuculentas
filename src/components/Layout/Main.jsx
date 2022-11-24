@@ -1,13 +1,13 @@
+import { Button } from "bootstrap";
 import Header from "../Helpers/Header";
+import Img from "../Helpers/Img";
 
 const Main = () => {
     return(
         <main>
-            <section className="venta1">
-            <button type="button" class="btn btn-success">Comprar</button>
-               Se crea esta vainba
-
-               
+            <section className="venta1"> 
+             <Img/>  
+                           
             </section>
             <section className="venta2"></section>
         </main>

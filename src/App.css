@@ -21,9 +21,17 @@
   height: 40vh;
   width: 60%;
   background-color: #285430;
-  border-radius: 100px  1px 1px 100px ;
+  border-radius: 100px  1px 1px 100px;
   margin-top: 60px;
-  margin-left: 1050px;
+  margin-left: 1200px;
+}
+
+.cactus{
+  height: 400px;
+  width: 400px;
+  filter: drop-shadow(20px 20px 8px #151414);
+  margin-top: 60px;
+  margin-right: 1400px;
 }
 
 .venta2{
