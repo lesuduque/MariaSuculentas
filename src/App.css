@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+
+
+* {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.navbar{
+  height: 100px;
+  width: 100%;
+  background-color: #285430;
+  border-radius:  1px 1px 150px 1px ;
+}
+
+.buscar{
+  display: flex;
+  margin-right: 60px;
+}
+
+.venta1{
+  height: 40vh;
+  width: 60%;
+  background-color: #285430;
+  border-radius: 100px  1px 1px 100px ;
+  margin-top: 60px;
+  margin-left: 1050px;
+}
+
+.venta2{
+  height: 40vh;
+  width: 60%;
+  background-color: #285430;
+  border-radius: 100px  1px 1px 100px ;
+  margin-top: 60px;
+  margin-left: 1050px;
+  margin-bottom: 20px;
+}
+
+.mas1{
+  height: 50px;
+  width: 50px;
+  border-color: black 4px;
+  border-radius: 10px ;
+  background-color:aliceblue ;
+  color: black;
+}
