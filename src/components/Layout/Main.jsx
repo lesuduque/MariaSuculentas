@@ -5,6 +5,8 @@ const Main = () => {
         <main>
             <section className="venta1">
             <button type="button" class="btn btn-success">Comprar</button>
+               Se crea esta vainba
+
                
             </section>
             <section className="venta2"></section>
