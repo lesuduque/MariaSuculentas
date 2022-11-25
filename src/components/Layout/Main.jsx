@@ -1,23 +1,39 @@
 import { Button } from "bootstrap";
-import Buttons from "../Helpers/Buttons";
-import Forms from "../Helpers/Forms";
+import FormularioClientes from "../Helpers/FormularioClientes";
+import FormularioProductos from "../Helpers/FormularioProductos";
+import FormularioProveedores from "../Helpers/FormularioProveedores";
 import Header from "../Helpers/Header";
-import Img from "../Helpers/Img";
-import Textos from "../Helpers/Textos";
+import Img1 from "../Helpers/Img1";
+import Img2 from "../Helpers/Img2";
+
+import Texto1 from "../Helpers/Texto1";
+import Texto2 from "../Helpers/Texto2";
+
 
 
 const Main = () => {
   return (
     <main>
         
-      <section className="venta1">
-        <Img />
-      </section>
+        <section className="ventas">
+        
+            <section className="venta1">
+                <Img1/>
+                <Texto1/>
+            </section>
+            
+              <section className="venta2">
+                <Img2/>
+                <Texto2/>
+            </section>
+        </section>
 
-      <section className="venta2">
-      <Textos/>
-      </section>
-      <Forms/>
+        <section className="control">
+          <FormularioClientes/>
+          <FormularioProveedores/>
+          <FormularioProductos/>
+        </section>
+  
     </main>
   );
 };

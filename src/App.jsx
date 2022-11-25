@@ -12,8 +12,7 @@ function App() {
     <section className="App">
       <Header/>
       <Main/>
-
-    <Footer/>
+     <Footer/>
     </section>
   )
 }

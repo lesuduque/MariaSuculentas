@@ -1,26 +1,29 @@
 const Footer = () => {
   return (
-<footer class="text-center text-lg-start bg-success">
-<section class="container d-flex justify-content-center py-5">
-      <button type="button" class="btn btn-outline-danger">
-        <i class="fab fa-facebook-f"></i>
-      </button>
-      <button type="button" class="btn btn-outline-danger">
-        <i class="fab fa-youtube"></i>
-      </button>
-      <button type="button" class="btn btn-outline-danger">
-        <i class="fab fa-instagram"></i>
-      </button>
-      <button type="button" class="btn btn-outline-danger">
-        <i class="fab fa-twitter"></i>
-      </button>
-    </section>
+<section className="footer-basic">
+      <footer>
+        <section className="social">
+          <img className="a" src="../../../public/instagram.png" alt="" />
+          <img className="a" src="../../../public/facebook.png" alt="" />
+          <img className="a" src="../../../public/twitter.png" alt="" />
+        </section>
 
-    <section class="text-center text-white p-3 ">
-      Maria Suculentas © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">Contacto:1234821344</a>
+
+        
+        <ul className="list-inline">
+          <li className="list-inline-item">
+            <a className="link" href="#">Home</a>
+          </li>
+          <li className="list-inline-item">
+            <a className="link" href="#">Servicios</a>
+          </li>
+          <li className="list-inline-item">
+            <a className="link" href="#">About</a>
+          </li>
+        </ul>
+      
+      </footer>
     </section>
-</footer>
   )
 }
 

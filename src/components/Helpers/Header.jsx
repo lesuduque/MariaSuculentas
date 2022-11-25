@@ -1,6 +1,6 @@
 const Header = () => {
     return(
-        <header>
+        <header className="barra-arriba">
             <nav class="navbar bg-success.bg-gradient">
             <section class="container-fluid">
             
