@@ -3,6 +3,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './components/Helpers/Header'
 import Main from './components/Layout/Main'
+import Footer from './components/Helpers/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,7 @@ function App() {
       <Header/>
       <Main/>
 
-    
+    <Footer/>
     </section>
   )
 }
