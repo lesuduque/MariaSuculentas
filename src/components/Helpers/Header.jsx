@@ -8,7 +8,7 @@ const Header = () => {
             <h1 class="text-light position-absolute top-50 start-50 translate-middle"> Maria Suculentas </h1>
             
           
-            <form className="buscar" class="d-flex" role="search">
+            <form className="buscar" class="d-flex  " role="search">
             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
             <button class="btn btn-outline-success" type="submit">Buscar</button>
             </form>
